@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/login"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<EditText
+    android:id="@+id/widget38"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:layout_x="68dp"
+    android:layout_y="76dp"
+    android:text="User Name"
+    android:textSize="18sp" />
+
+<Button
+    android:id="@+id/widget40"
+    android:layout_width="79dp"
+    android:layout_height="wrap_content"
+    android:layout_x="66dp"
+    android:layout_y="189dp"
+    android:text="Register" />
+
+<EditText
+    android:id="@+id/widget38_copy"
+    android:layout_width="174dp"
+    android:layout_height="wrap_content"
+    android:layout_x="68dp"
+    android:layout_y="126dp"
+    android:text="Password"
+    android:textSize="18sp" >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/widget41"
+    android:layout_width="104px"
+    android:layout_height="wrap_content"
+    android:layout_x="149dp"
+    android:layout_y="189dp"
+    android:text="Login" />
+
+</AbsoluteLayout>

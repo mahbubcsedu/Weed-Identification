@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/ehome">
+
+    <TextView
+        android:id="@android:id/text1"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="62dp"
+        android:text="HOME SCREEN" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="339dp"
+        android:layout_height="63dp"
+        android:layout_x="69dp"
+        android:layout_y="431dp"
+        android:background="@android:color/transparent"
+        android:text="Profile" 
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="333dp"
+        android:layout_height="59dp"
+        android:layout_x="70dp"
+        android:layout_y="528dp"
+        android:background="@android:color/transparent"
+        android:text="Sign Out"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/diagnose"
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:layout_x="67dp"
+        android:layout_y="327dp"
+        android:background="@android:color/transparent"
+        android:text="Diagnose" 
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/weed_database"
+        android:layout_width="343dp"
+        android:layout_height="67dp"
+        android:layout_x="63dp"
+        android:layout_y="223dp"
+        android:background="@android:color/transparent"
+        android:text="Weed Database" 
+        android:textSize="24dp"/>
+
+</AbsoluteLayout>

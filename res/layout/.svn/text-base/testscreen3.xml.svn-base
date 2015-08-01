@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loginweedidapp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20" >
+        
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/usernamehint"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="264dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/passwordhint"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.16"
+            android:background="@android:color/transparent"
+            android:text="signin" />
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.77" >
+        
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:background="@android:color/transparent"
+            android:gravity="right"
+            android:text="register" />
+        
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:text="btnresent" />
+</LinearLayout>
+
+    </LinearLayout>
+  <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.95"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/credits"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:text="@string/credits"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="132dp" >
+        
+    </LinearLayout>
+</LinearLayout>

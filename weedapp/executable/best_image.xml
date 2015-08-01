@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <FormattedContent><![CDATA[
+      <h1 align="center">Select the best matching images (maximum 3)</h1>
+      <h2>Instructions</h2>
+      Your task is to select <strong>one, two or three </strong> images from the list images that is similar or close to similar to the first image.
+      
+      <br/>It is possible that none of the images can satisfy all the evaluation criteria.  
+      Your goal is to select the best similar images and if not then just write(must use the same word)  "no matching" to the text box and select any checkbox(has no effect).
+      <br/>
+      <br/>If you think multiple images are similar then select best 3 of them and in the bellow box write rank1, rank2, rank3. 
+      For example, if you select 2.jpg first and 1.jpg second then write rank2 rank1. This lead to know that the second image you 
+      choose is the best match and the first one is less similar than second one.
+      <br/>
+      <h3>Evaluation Criteria</h3>
+        <ul>
+          <li>The images should be as close as possible to the question image</li>
+          <li>Image could be in rotated formate than the question image</li>
+          <li>The image should have good color balance.  (i.e. not tinted)</li>
+          <li>The image may appear in different ligting condition than the question image</li>
+          <li>The image could be in different zoom level than the question image</li>
+         <li>Please refer to the following <a href="http://mpss.csce.uark.edu/smsdb/weed_app/weedapp/example.html" target="_blank" >link</a> for visual examples of the above criteria.</li>
+        
+        </ul>
+      <h2>Task</h2>
+    ]]></FormattedContent>
+  </Overview>
+  <Question>
+    <QuestionIdentifier>best_image</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <FormattedContent><![CDATA[
+      <font size="4" color="darkblue"  >The image for which you have to find similar</font>
+      ]]></FormattedContent>
+      <Binary>
+              <MimeType>
+                <Type>image</Type>
+                <SubType>jpg</SubType>
+              </MimeType>
+              <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/weedapp/Image_Capture/_5gfilter23.jpg</DataURL>
+              <AltText>_5gfilter23.jpg</AltText>
+            </Binary>
+            <FormattedContent><![CDATA[
+      <font size="4" color="darkblue" >The list of images from where to find the similar images for the above one</font>
+      ]]></FormattedContent>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>checkbox</StyleSuggestion>
+        <Selections>
+          
+          
+          
+        <Selection>
+                  <SelectionIdentifier>23.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/23.jpg</DataURL>
+                     <AltText>23.jpg</AltText>
+                  </Binary>
+               </Selection>
+            <Selection>
+                  <SelectionIdentifier>21.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/21.jpg</DataURL>
+                     <AltText>21.jpg</AltText>
+                  </Binary>
+               </Selection>
+            <Selection>
+                  <SelectionIdentifier>40.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/40.jpg</DataURL>
+                     <AltText>40.jpg</AltText>
+                  </Binary>
+               </Selection>
+            <Selection>
+                  <SelectionIdentifier>35.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/35.jpg</DataURL>
+                     <AltText>35.jpg</AltText>
+                  </Binary>
+               </Selection>
+            <Selection>
+                  <SelectionIdentifier>15.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/15.jpg</DataURL>
+                     <AltText>15.jpg</AltText>
+                  </Binary>
+               </Selection>
+            </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>comments</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Please write the rank1, rank2, rank3 or no matching according to your choice. :</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <NumberOfLinesSuggestion>10</NumberOfLinesSuggestion>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/login_w2">
+
+    <TextView
+        android:id="@+id/title"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_y="174dp" >
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="394dp"
+            android:layout_height="36dp"
+            android:layout_x="47dp"
+            android:layout_y="199dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/passwordhint"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="402dp"
+            android:layout_height="35dp"
+            android:layout_x="43dp"
+            android:layout_y="92dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/usernamehint" />
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="226dp"
+            android:layout_height="66dp"
+            android:layout_x="131dp"
+            android:layout_y="276dp"
+            android:background="@android:color/transparent"
+             />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="193dp"
+            android:layout_height="40dp"
+            android:layout_x="105dp"
+            android:layout_y="382dp"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="114dp"
+            android:layout_height="51dp"
+            android:layout_x="324dp"
+            android:layout_y="378dp"
+            android:background="@android:color/transparent"   />
+
+    </AbsoluteLayout>
+
+    <Button
+        android:id="@+id/credits"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+        android:layout_x="199dp"
+        android:layout_y="613dp"
+        android:background="@android:color/transparent"
+        android:text="@string/credits"
+        android:textStyle="bold" 
+        android:textSize="30dp"/>
+
+</AbsoluteLayout>

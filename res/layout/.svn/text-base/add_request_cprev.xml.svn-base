@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/layout">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Camera Demo"
+		android:textSize="24sp" />
+
+	<FrameLayout android:id="@+id/preview"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	</FrameLayout>
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/buttonClick"
+		android:text="Click" android:layout_gravity="center"></Button>
+
+</LinearLayout>
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:format="@string/chronometer_initial_format"
+        android:paddingBottom="1dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="1dip" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/start_recording"
+            android:textSize="12dip" />
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Reset"
+            android:textSize="12dip" />
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/stop_recording"
+            android:textSize="12dip" />
+        <Button
+            android:id="@+id/btnFormat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Format (mp4)"
+            android:textSize="12dip" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comments" >
+    </TextView>
+    <EditText
+        android:id="@+id/txtComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:maxLines="5"
+        android:inputType="textMultiLine" >
+        </EditText>     
+    <Button 
+       android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send" >        
+    </Button>
+    
+</LinearLayout>

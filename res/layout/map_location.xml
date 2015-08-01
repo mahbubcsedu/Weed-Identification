@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/custom_border"
+    
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/custom_border"
+        android:layout_height="0dp"
+        android:layout_weight="9" >
+
+        <com.google.android.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:apiKey="0-xsAV_4eTg8Qr4fk_Z2mqVUCGm65fQRCMatk-A"
+            android:clickable="true"
+            
+            android:enabled="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical" >
+<Button
+            android:id="@+id/useLocation"
+            style="@style/btnStylePaprika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+        <Button
+            android:id="@+id/maptype"
+            style="@style/btnStylePaprika"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Satellite View" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/marker"
+        android:visibility="gone" />
+
+</LinearLayout>

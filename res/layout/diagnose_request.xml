@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/custom_border"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/request_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:scaleType="fitXY" />
+
+    <Gallery
+        android:id="@+id/diagnose_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAudioComments"
+            style="@style/btnStylePaprika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="4dp"
+            android:text="Play Audio"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnTextComments"
+            style="@style/btnStylePaprika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="4dp"
+            android:text="View Comment"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/preview_button"
+            style="@style/btnStylePaprika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingRight="4dp"
+            android:text="Preview"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

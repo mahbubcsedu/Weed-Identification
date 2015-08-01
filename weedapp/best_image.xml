@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <FormattedContent><![CDATA[
+      <h1 align="center">Select the best matching images (maximum 3)</h1>
+      <h2>Instructions</h2>
+      Your task is to select <strong>one, two or three </strong> images from the list images that is similar or close to similar to the first image.
+      
+      <br/>It is possible that none of the images can satisfy all the evaluation criteria.  Your goal is to select the best similar images.
+      <br/>
+      <h3>Evaluation Criteria</h3>
+        <ul>
+          <li>The images should be as close as possible to the question iamge</li>
+          <li>Image could be in rotated formate than the question image</li>
+          <li>The image should have good color balance.  (i.e. not tinted)</li>
+          <li>The image may appear in different ligting condition than the question image</li>
+          <li>The image could be in different zoom level than the question image</li>
+         <!--  <li>Please refer to the following <a href="http://s3.amazonaws.com/mturk/samples/bestimage/best-image-instructions.html" target="_blank" >link</a> for visual examples of the above criteria.</li>
+        --> 
+        </ul>
+      <h2>Task</h2>
+    ]]></FormattedContent>
+  </Overview>
+  <Question>
+    <QuestionIdentifier>best_image</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <FormattedContent><![CDATA[
+      <font size="4" color="darkblue"  >The image for which we have to find similar</font>
+      ]]></FormattedContent>
+      <Binary>
+              <MimeType>
+                <Type>image</Type>
+                <SubType>jpg</SubType>
+              </MimeType>
+              <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/weedapp/Image_Capture/144.jpg</DataURL>
+              <AltText>144.jpg</AltText>
+            </Binary>
+            <FormattedContent><![CDATA[
+      <font size="4" color="darkblue" >The list of images from where to find the similar images for the above one</font>
+      ]]></FormattedContent>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>checkbox</StyleSuggestion>
+        <Selections>
+          
+          
+          
+        <Selection>
+                  <SelectionIdentifier>I7_Z1_O2_L1.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/I7_Z1_O2_L1.jpg</DataURL>
+                     <AltText>I7_Z1_O2_L1.jpg</AltText>
+                  </Binary>
+               </Selection>
+            <Selection>
+                  <SelectionIdentifier>I7_Z1_O1_L1.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/I7_Z1_O1_L1.jpg</DataURL>
+                     <AltText>I7_Z1_O1_L1.jpg</AltText>
+                  </Binary>
+               </Selection>
+            <Selection>
+                  <SelectionIdentifier>I8_Z1_O2_L1.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/I8_Z1_O2_L1.jpg</DataURL>
+                     <AltText>I8_Z1_O2_L1.jpg</AltText>
+                  </Binary>
+               </Selection>
+            <Selection>
+                  <SelectionIdentifier>I20_Z3_O1_L1.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/I20_Z3_O1_L1.jpg</DataURL>
+                     <AltText>I20_Z3_O1_L1.jpg</AltText>
+                  </Binary>
+               </Selection>
+            <Selection>
+                  <SelectionIdentifier>I7_Z2_O1_L1.jpg</SelectionIdentifier>
+                  <Binary>
+                     <MimeType>
+                        <Type>image</Type>
+                        <SubType>jpg</SubType>
+                     </MimeType>
+                     <DataURL>http://mpss.csce.uark.edu/smsdb/weed_app/ImageForTesting/Images/I7_Z2_O1_L1.jpg</DataURL>
+                     <AltText>I7_Z2_O1_L1.jpg</AltText>
+                  </Binary>
+               </Selection>
+            </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>comments</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Please help us improve this HIT by including any Questions and/or Comments (optional):</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <NumberOfLinesSuggestion>10</NumberOfLinesSuggestion>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>

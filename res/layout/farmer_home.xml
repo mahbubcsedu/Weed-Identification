@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fhome" >
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="228dp"
+        android:layout_height="40dp"
+        android:layout_x="41dp"
+        android:layout_y="338dp"
+        android:background="@android:color/transparent"
+         />
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="229dp"
+        android:layout_height="43dp"
+        android:layout_x="40dp"
+        android:layout_y="400dp"
+        android:background="@android:color/transparent"
+         />
+
+    <Button
+        android:id="@+id/create_result"
+        android:layout_width="226dp"
+        android:layout_height="44dp"
+        android:layout_x="42dp"
+        android:layout_y="274dp"
+        android:background="@android:color/transparent"
+         />
+
+    <Button
+        android:id="@+id/create_request"
+        android:layout_width="228dp"
+        android:layout_height="42dp"
+        android:layout_x="42dp"
+        android:layout_y="210dp"
+        android:background="@android:color/transparent"
+        />
+
+    <Button
+        android:id="@+id/weed_database"
+        android:layout_width="228dp"
+        android:layout_height="45dp"
+        android:layout_x="42dp"
+        android:layout_y="146dp"
+        android:background="@android:color/transparent"
+         />
+
+    <TextView
+        android:id="@android:id/text1"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="57dp"
+        android:text="HOME SCREEN" />
+
+</AbsoluteLayout>

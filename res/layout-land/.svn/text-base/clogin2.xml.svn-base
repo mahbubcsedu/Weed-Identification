@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/login_w2">
+
+    <TextView
+        android:id="@+id/title"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="309dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_y="174dp" >
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="154dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="43dp"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="128dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="264dp"
+            android:layout_height="35dp"
+            android:layout_alignRight="@+id/btnReset"
+            android:layout_below="@+id/signin"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/usernamehint"
+            android:text="testexpert" >
+
+            <requestFocus />
+        </EditText>
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_alignLeft="@+id/username"
+            android:layout_below="@+id/username"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/passwordhint"
+            android:text="12345678" />
+
+        <Button
+            android:id="@+id/credits"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnReset"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="31dp"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/transparent"
+            android:text="@string/credits" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="133dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/credits"
+            android:layout_alignRight="@+id/password"
+            android:layout_marginRight="46dp"
+            android:background="@android:color/transparent" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Weed Identification</string>
+    <string name="county_prompt">Choose your county</string>
+    <string name="user_prompt">Choose User Type</string>
+    <string name="showResponse">Response</string>
+    <string name="passwordhint">Password</string>
+    <string name="usernamehint">User Name</string>
+    <string name="credits">Credits</string>
+    <string name="fTextComment">Your Text Comment</string>
+
+    <string-array name="county_array">
+        <item>Arkansas</item>
+        <item>Ashley</item>
+        <item>Baxter</item>
+        <item>Benton</item>
+        <item>Boone</item>
+        <item>Bradley</item>
+        <item>Calhoun</item>
+        <item>Carroll</item>
+        <item>Chicot</item>
+        <item>Clark</item>
+        <item>Clay</item>
+        <item>Cleburne</item>
+        <item>Cleveland</item>
+        <item>Columbia</item>
+        <item>Conway</item>
+        <item>Craighead</item>
+        <item>Crawford</item>
+        <item>Crittenden</item>
+        <item>Cross</item>
+        <item>Dallas</item>
+        <item>Desha</item>
+        <item>Drew</item>
+        <item>Faulkner</item>
+        <item>Franklin</item>
+        <item>Fulton</item>
+        <item>Garland</item>
+        <item>Grant</item>
+        <item>Greene</item>
+        <item>Hempstead</item>
+        <item>Hot Spring</item>
+        <item>Howard</item>
+        <item>Independence</item>
+        <item>Izard</item>
+        <item>Jackson</item>
+        <item>Jefferson</item>
+        <item>Johnson</item>
+        <item>Lafayette</item>
+        <item>Lawrence</item>
+        <item>Lee</item>
+        <item>Lincoln</item>
+        <item>Little River</item>
+        <item>Logan</item>
+        <item>Lonoke</item>
+        <item>Madison</item>
+        <item>Marion</item>
+        <item>Miller</item>
+        <item>Mississippi</item>
+        <item>Monroe</item>
+        <item>Montgomery</item>
+        <item>Nevada</item>
+        <item>Newton</item>
+        <item>Ouachita</item>
+        <item>Perry</item>
+        <item>Phillips</item>
+        <item>Pike</item>
+        <item>Poinsett</item>
+        <item>Polk</item>
+        <item>Pope</item>
+        <item>Prarie</item>
+        <item>Pulaski</item>
+        <item>Randolph</item>
+        <item>St. Francis</item>
+        <item>Saline</item>
+        <item>Scott County</item>
+        <item>Searcy</item>
+        <item>Sebastian</item>
+        <item>Sevier</item>
+        <item>Sharp</item>
+        <item>Stone</item>
+        <item>Union</item>
+        <item>Van Buren</item>
+        <item>Washington</item>
+        <item>White</item>
+        <item>Woodruff</item>
+        <item>Yell</item>
+    </string-array>
+    <string-array name="user_type">
+        <item>Expert</item>
+        <item>Farmer</item>
+    </string-array>
+
+    <string name="choose_format_title">Choose Audio Format</string>
+    <string name="start_recording">Record</string>
+    <string name="stop_recording">Stop</string>
+    <string name="audio_format">Format</string>
+    <string name="chronometer_initial_format">Initial format:<xliff:g id="initial-format">%</xliff:g></string>
+    <string name="play_str">PLAY</string>
+    <string name="pause_str">PAUSE</string>
+    <string name="menu_zoom">Zoom</string>
+    <string name="menu_pan">Pan</string>
+    <string name="menu_reset">Reset</string>
+    <string name="instruction_reg">Hello, and thank you for downloading the Weed Identification App. 
+        Here are some tips to help you with registration:\n \n Username: This is your unique username for our service. 
+        This cannot be changed, so make sure you type what name you would like to use correctly.\n \n Password: 
+        This is what you will use to log in. It can consist of upper and lowercase letters, as well as 
+        numbers.\n \n Location: Please select your location in the map view. You should note that this app is 
+        only valid for locations in the State of Arkansas.\n \n County: Please select your county. We ask for this 
+        information in order to determine which experts are sent which requests. </string>
+    <string name="instruction_frequest">Here are some tips to help you submit a request:\n\nPhotograph: 
+            Be sure to include a photograph of your weed! If you don\'t like the picture you took, you can always 
+            clear it and take another.\n\nAudio: To record audio, press the record button to record a short clip. 
+            Press Stop when you\'re finished. You can press the Play to hear your message. If you don\'t like your message, 
+            you can record a new one over it. If the Play button is grayed out, the record button press didn\'t register, 
+            so you should try to record again.\n\n Comments: Type a short comment here if you feel the need to give additional 
+            information not included in the photograph or audio clip.</string>
+    <string name="instruction_exSubmit">Here are some tips to help you submit a response:\n\nTo zoom in on either image, 
+            simply tap the image.\n\nTo add a database weed to your response, touch and hold on the image of the database weed 
+            for two seconds, then select a rank.\n\nIf you think that the image the farmer submitted should be added to the 
+            database, touch and hold on the image the farmer submitted for two seconds, then selected Submit.\n\nOnce you have 
+            selected up to three weeds, hit the Preview Response button to finish with your submission.</string>
+    <string name="instructionKeyReg">dontShowreg</string>
+    <string name="instructionKeyfAdd">dontShowaddrequest</string>
+    <string name="instructionKeyESub">dontShowsubmit</string>
+    
+    
+    <string name="weeidDb">Weed Database</string>
+    <string name="addRequest">Add Request</string>
+    <string name="requestlist">Request List</string>
+    <string name="requestmap">Request Map</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Sign Out</string>
+    
+    <string name="diagnoseMap">Diagnose Map View</string>
+    <string name="diagnoselist">Diagnose List View</string>
+    
+
+</resources>

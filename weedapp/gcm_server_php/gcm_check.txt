@@ -1,0 +1,46 @@
+https://android.googleapis.com/gcm/sendArray
+(
+    [registration_ids] => Array
+        (
+            [0] => APA91bHpqSGPfJHf3ATQ8DJLCQ6en1fG0bOYcJIc2Gkb09x4zvUVkUVEvWMi5Nzle6q4IJZJqbcVvbyFKfpxKR7Dq5N3UsB9xpggChr0V966Od40TS19TUmquMd5Txr6hubaX3l-9P-8
+        )
+
+    [data] => Array
+        (
+            [product] => shirt
+        )
+
+)
+Array
+(
+    [0] => Authorization: key=AIzaSyBqoOmZSC8RUGd7T1g-twUoSqJbqt3ngso
+    [1] => Content-Type: application/json
+)
+start executingprinting after curlArray
+(
+    [url] => https://android.googleapis.com/gcm/send
+    [content_type] => application/json; charset=UTF-8
+    [http_code] => 200
+    [header_size] => 314
+    [request_size] => 375
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.264763
+    [namelookup_time] => 0.003431
+    [connect_time] => 0.035412
+    [pretransfer_time] => 0.100689
+    [size_upload] => 192
+    [size_download] => 143
+    [speed_download] => 540
+    [speed_upload] => 725
+    [download_content_length] => -1
+    [upload_content_length] => 0
+    [starttransfer_time] => 0.264733
+    [redirect_time] => 0
+    [certinfo] => Array
+        (
+        )
+
+)
+{"multicast_id":5204935338506096691,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1374192950743969%ee85b65ef9fd7ecd"}]}{"multicast_id":5204935338506096691,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1374192950743969%ee85b65ef9fd7ecd"}]}

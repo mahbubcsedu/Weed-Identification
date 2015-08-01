@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mpss.weed.id"
+    android:configChanges="orientation|keyboardHidden"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <permission
+        android:name="com.mpss.weed.id.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.mpss.weed.id.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application android:allowBackup="true"
+        android:icon="@drawable/weedidicon"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/customTheme" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="com.mpss.weed.id.farmer.FarmerHomeActivity"
+            android:label="Home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mpss.weed.id.farmer.FarmerNewRequestActivity"
+            android:label="Add Request"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mpss.weed.id.farmer.RequestListViewActivity"
+            android:label="Previous Requests"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mpss.weed.id.farmer.RequestListMapViewActivity"
+            android:label="Previous Requests"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mpss.weed.id.farmer.RequestDetailsActivity"
+            android:label="Request Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity
+            android:name="com.mpss.weed.id.farmer.ResponseWeedsActivity"
+            android:label="Response Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.mpss.weed.id.farmer.FarmerResponseActivity"
+            android:label="Responses"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        
+        <!-- End of Farmer Side Activity Start of Some common Activity -->
+
+        <activity
+            android:name="com.mpss.weed.id.common.LoginActivity"
+            android:label="Sign In"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.mpss.weed.id.common.WeedDatabaseActivity"
+            android:label="Weed Database"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.mpss.weed.id.common.ProfileActivity"
+            android:label="Profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.mpss.weed.id.common.WeedInformationActivity"
+            android:label="Weed"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity
+            android:name="com.mpss.weed.id.zoom.ImageZoomActivity"
+            android:label="Zoom Image"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity
+            android:name="com.mpss.weed.id.map.LocationSelectMapActivity"
+            android:label="Map Location"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity
+            android:name="com.mpss.weed.id.common.ChangePasswordActivity"
+            android:label="Change Password"
+            android:screenOrientation="portrait" >
+        </activity>
+         
+          <activity
+            android:name="com.mpss.weed.id.common.RegisterActivity"
+            android:label="Sign Up"
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name="com.mpss.weed.id.utils.InstructionAcitivity"
+            android:label="InstructionAcitivity"
+            android:screenOrientation="portrait" >
+        </activity>
+         
+         <!-- Common Activity Finished and Start of Expert Activity -->
+           <activity
+            android:name="com.mpss.weed.id.expert.ExpertHomeActivity"
+            android:label="Home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mpss.weed.id.expert.AvailableRequestListViewActivity"
+            android:label="Farmer Reqeusts"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity
+            android:name="com.mpss.weed.id.expert.AvailabeRequestListMapActivity"
+            android:label="Request Map"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+          <activity
+            android:name="com.mpss.weed.id.expert.ExpertDiagnoseRequestActivity"
+            android:label="Request Details"
+            android:screenOrientation="portrait" >
+        </activity>
+         
+           <activity
+            android:name="com.mpss.weed.id.expert.ExpertVarifyDiagnoseActivity"
+            android:label="Response"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+           
+           
+           
+           
+         
+         
+         
+         
+        <activity
+            android:name="com.mpss.weed.id.map.RequestListMapView"
+            android:label="Request Map"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.mpss.weed.id.farmer.DisplayARequestListViewActivity"
+            android:label="Request"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mpss.weed.id.expert.ExpertLoginActivity"
+            android:label="Expert Login"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.mpss.weed.id.ExpertActivity" >
+        </activity>
+        <activity
+            android:name="com.mpss.weed.id.expert.ExpertRegisterActivity"
+            android:label="Expert Registration"
+            android:screenOrientation="portrait" >
+        </activity>
+      
+       
+        
+        
+       
+        <activity
+            android:name=".expert.ExpertDiagnoseRequestListActivity"
+            android:label="Reqeusts List"
+            android:screenOrientation="portrait" >
+        </activity>
+      
+        
+       
+        
+       
+       
+        
+        <activity
+            android:name="com.mpss.weed.id.farmer.FarmerIdetificationActivity"
+            android:label="Farmer Identification"
+            android:screenOrientation="portrait" >
+        </activity>
+       
+       
+       
+        <activity
+            android:name="com.mpss.weed.id.test.TestCameraPreview"
+            android:label="Preview Demo"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+       
+    </application>
+
+</manifest>
