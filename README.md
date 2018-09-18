@@ -3,45 +3,27 @@ This is an android application which is used in weed identification project to s
 General User Features 5
 
 
-1. Introduction 
-
-2.1. Sing in to the system 
-
-2.2. Sign up for the system 
-
-2.3. Weed database 
-
-2.4. User profile 
-
-2.5. User instruction 
-
-2.6. Image Zoom 
-
-3. Farmer Specific Features 
-
-3.1. Add a request 
-
-3.2. Review previous requests (list) 
-
-3.3. Review previous requests (map) 
-
-3.4. Detail response 
-
-3.5. Sign out 
-
-4. Expert Specific Features 
-
-4.1. Farmer's requests (list & map view) 
-
-4.2. Request diagnosis 
-
-4.3. Add new weed information 
-
-4.4. Review the response 
-
-5. App admin Specific Features 
-
-6. Conclusion 
+### 1. Introduction 
+### 2. Common Interface
+  * 2.1. Sing in to the system 
+  * 2.2. Sign up for the system 
+  * 2.3. Weed database 
+  * 2.4. User profile 
+  * 2.5. User instruction 
+  * 2.6. Image Zoom 
+###3. Farmer Specific Features 
+  * 3.1. Add a request 
+  * 3.2. Review previous requests (list) 
+  * 3.3. Review previous requests (map) 
+  * 3.4. Detail response 
+  * 3.5. Sign out 
+### 4. Expert Specific Features 
+  * 4.1. Farmer's requests (list & map view) 
+  * 4.2. Request diagnosis 
+  * 4.3. Add new weed information 
+  * 4.4. Review the response 
+### 5. App admin Specific Features 
+### 6. Conclusion 
 
 
 ## 1. Introduction
@@ -52,7 +34,9 @@ In the mobile based weed identification system-it mimics the work of exchanging 
 
  
 
-Figure 1: Weed Identification System
+  ### Weed Identification System
+  
+        ![alt text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/main.png "LogIn")
 
 The farmers/consultant sends the requests to the system where background manipulation is done and stored the requests making accessible to both farmers and experts. The experts get the requests made by the farmers and consultants and give the feedback which is stored in the back-end system. The farmers or consultants get the response of their requests from the back-end system.
 
@@ -66,6 +50,9 @@ Though there are two different types of users for the weed application, but ther
 ## 2.1 Sign in to the system
 This is the introduction screen that everyone sees when loading the app. This is where users can first register with the service and log in to their respective accounts. A user will also be able to view information about the application.
 
+## Sign In screen: 
+
+![alt text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/Picture1.png "LogIn")
 
 
 As of this version, a user can only reset their passwords via their profile once they have already logged in, so until further development, this Password
@@ -77,9 +64,10 @@ Another important information regarding log in to the system is that currently t
 ## 2.2 Sign up for the system
 In addition to logging in, this view is also where both types of users can register with this service. When the Sign Up button is pressed, a view is presented allowing the user to enter in the relevant data, including a specific map view for location data that checks to ensure the users are located in Arkansas.
 
+## Registration
 
+![alt-text-1](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/info1.png "title-1") ![alt-text-2](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/info2.png "title-2")
 
-Figure 3: Registration
 
 An additional user type of student is currently in development. The student's user interface will be the same as the expert's. Additionally, the image of the map view screen displays a valid location selection. If a user were to select a location outside of Arkansas, an error message stating that only locations in Arkansas are valid and prompts the user to make another selection. In order to make a more accurate location selection, the user has the option to zoom in, both with figure gestures on the screen and the zoom button. The map also cycles through three different types, a standard line map, a satellite map and the line map superimposed on the satellite map as shown above.
 
@@ -88,7 +76,7 @@ After the user enters all of the requested data and passes the error checking, f
 ## 2.3 Weed database
 Other general features available regardless of user type are the ability to view a database of weeds common to the area.
 
-
+![alt-text-1](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/info1.png "title-1") ![alt-text-2](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/info2.png "title-2")
 
 Figure 4: Weed database
 
@@ -127,7 +115,8 @@ When the Add Request button is pressed, a view is presented allowing the farmer 
 
 
 
-Figure 8: Add a new reqeust
+## Add a new reqeust
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/req1.png "add new request")
 
 This information is then collected and necessary conversions done. Once complete, a PHP script which handles inserting the request into the database is called. In addition, if the farmer has allowed location data to be used, a final check is done before the actual submission to verify that the user is currently in Arkansas. This check, unlike the one performed during registration, is based on location data provided by the phone, not input by the user in order to prevent people submitting requests from out of the state.
 
@@ -136,7 +125,10 @@ The Request Result button's features are more in depth. Immediately upon selecti
 
 
 
-Figure 9: View previous requests(list)
+##  View previous requests(list)
+
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/req_st1.png "show previous request") |
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/req_st2.png "show previous request")
 
 If that button is selected, another table view appears with a list of the responses received, and finally, if a response is selected, a final screen displaying the details of the response is displayed. The above screenshots of the table view listing out all of the previous requests the farmer has made, and the detail screen allowing the farmer to view the information he or she submitted in the request before moving on to the table view of responses.
 
@@ -145,7 +137,11 @@ When a farmer selects the View Previous Requests button, a map view is presented
 
 
 
-Figure 10: View previous request (map)
+## View previous request (map)
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/search1.png "show previous request map") |
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/search2.png "show previous request map")
+
+
 
 ## 3.4 Detail response
 
@@ -164,7 +160,9 @@ The expert home screen is similar to the farmer's home screen. Like in the farme
 
 
 
-Figure 12: Expert home screen
+## Expert home screen
+
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/exp1.png "expert window")
 
 ## 4.1 Farmer's requests (list & map view)
 The Diagnose List View button calls a view that displays an interactive table of all of the requests the farmer users have submitted. Like in the farmer's version of the app, there is a color coded indicator showing which requests have already been answered. For request map view, when the user presses the button with Diagnose Map View, the interactive map view with the requests is open. The user can tap the marker to select for diagnosis. The red marker defines that there is at least one response for that requests and red indicate that there is no response for that particular request.
@@ -178,6 +176,8 @@ When an expert selects a specific request to diagnose, another view is presented
 
 
 ## Figure 14: Diagnose selected requests
+
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/diag1.png "Diagnosis review") | ![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/diag2.png "Diagnosis review")
 
 Like in the farmer's version, all of this data is received from PHP scripts called by the app, parsed and presented to the user as he or she navigates through the application without being saved onto the android phone itself.
 
@@ -198,7 +198,10 @@ The images below are what the expert sees after adding the weed to the response 
 
 
 
-Figure 16: Review the response
+## Review the response
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/res1.png "Review response window") | 
+![alt-text](https://github.com/mahbubcsedu/Weed-Identification/blob/master/docimages/res2.png "Review response window") | 
+
 
 Once the expert makes his or her selections from the weed database, he or she can preview the selections, and provide text and audio supplements to the weeds selected from the database. When finished, the provided information is gathered, and a PHP script is called, sending all of the information to the server. The farmer can view the response on their version immediately.
 
