@@ -1,1 +1,0 @@
-INSERT INTO gcm_users(name, email, gcm_regid, created_at,device_type) VALUES('mahbubur rahman', 'mahbubcsedu@yahoo.com', 'APA91bHpqSGPfJHf3ATQ8DJLCQ6en1fG0bOYcJIc2Gkb09x4zvUVkUVEvWMi5Nzle6q4IJZJqbcVvbyFKfpxKR7Dq5N3UsB9xpggChr0V966Od40TS19TUmquMd5Txr6hubaX3l-9P-8', NOW(),'android')

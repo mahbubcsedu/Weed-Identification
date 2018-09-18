@@ -2,9 +2,9 @@
 /**
  * Database config variables
  */
-define("DB_HOST", "mpss.csce.uark.edu");
-define("DB_USER", "crowdsource");
-define("DB_PASSWORD", "crowdsource123~");
+define("DB_HOST", "*****");
+define("DB_USER", "*****");
+define("DB_PASSWORD", "****");
 define("DB_DATABASE", "weedidapp");
 
 /*

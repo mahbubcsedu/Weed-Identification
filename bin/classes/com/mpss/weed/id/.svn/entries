@@ -1,52 +1,0 @@
-10
-
-dir
-54
-svn+ssh://mahbabur@mpss.csce.uark.edu/home/mahbabur/svn/Mahbub_Directory/WeedIdentification_mpss/src/com/mpss/weed/id
-svn+ssh://mahbabur@mpss.csce.uark.edu/home/mahbabur/svn/Mahbub_Directory
-
-
-
-2012-10-09T21:52:29.207449Z
-54
-mahbabur
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-76089135-29c4-44a7-9366-c7a75803c354
-
-common
-dir
-
-customui
-dir
-
-expert
-dir
-
-farmer
-dir
-
-map
-dir
-
-test
-dir
-
-utils
-dir
-
-zoom
-dir
-

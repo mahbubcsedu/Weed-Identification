@@ -16,9 +16,9 @@ $fgmembersite->SetAdminEmail('mahbub2001@gmail.com');
 //hostname, user name, password, database name and table name
 //note that the script will create the table (for example, fgusers in this case)
 //by itself on submitting register.php for the first time
-$fgmembersite->InitDB(/*hostname*/'mpss.csce.uark.edu',
-                      /*username*/'crowdsource',
-                      /*password*/'crowdsource123~',
+$fgmembersite->InitDB(/*hostname*/'**',
+                      /*username*/'**',
+                      /*password*/'**',
                       /*database name*/'weedidapp',
                       /*table name*/'newweedadmin');
 
