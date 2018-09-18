@@ -4,7 +4,7 @@ libs/
 testimages/
 weedimages/
 weedtestdb/
-
+gen/
 
 # Compiled source #
 ###################
