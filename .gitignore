@@ -15,7 +15,7 @@ weedtestdb/
 *.o
 *.so
 *.settings
-
+*.svn
 
 # Packages #
 ############

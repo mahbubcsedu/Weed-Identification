@@ -1,104 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>  
-<TableLayout  
-    xmlns:android="http://schemas.android.com/apk/res/android"  
-    android:id="@+id/tableLayout1"  
-    android:layout_width="match_parent"  
-    android:layout_height="match_parent"    
-    android:background="@drawable/login_w2">>  
-
-    <TableRow
-        android:id="@+id/tableRow1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="161dp"
-        android:gravity="center_horizontal" >
-
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="264dp"
-            android:layout_height="35dp"
-            android:background="@android:color/transparent"
-            android:ems="10"
-            android:hint="@string/usernamehint"
-            android:text="testexpert" >
-
-            <requestFocus />
-        </EditText>
-       
-    </TableRow>  
-
-    <TableRow
-        android:id="@+id/tableRow2"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="35dp"
-        android:gravity="center_horizontal" >
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="250dp"
-            android:layout_height="36dp"            
-            android:background="@android:color/transparent"
-            android:ems="10"
-            android:hint="@string/passwordhint"
-            android:text="12345678" />
-        
-        </TableRow>
-
-    
-    <TableRow  
-        android:id="@+id/tableRow3"  
-        android:layout_height="wrap_content"  
-        android:layout_width="match_parent"  
-        android:gravity="center_horizontal">
-
-        <Button
-            android:id="@+id/signin"
-            android:layout_width="80dp"
-            android:layout_height="43dp"
-            android:layout_marginBottom="17dp"
-            android:layout_marginTop="20dp"
-            android:background="@android:color/transparent"
-            android:text="signin" />
-
-    </TableRow>
-    
-    <TableRow
-        android:id="@+id/tableRow6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:gravity="center_horizontal" >
-
-        <Button
-            android:id="@+id/register"
-            android:layout_width="133dp"
-            android:layout_height="40dp"
-            android:background="@android:color/transparent" />
- 
-        <Button
-            android:id="@+id/btnReset"
-            android:layout_width="80dp"
-            android:layout_height="40dp"
-            android:background="@android:color/transparent"
-            android:text="reset" />
-
-</TableRow>
-
-     <TableRow
-         android:id="@+id/tableRow5"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:gravity="center_horizontal" >
-
-         <Button
-             android:id="@+id/credits"
-             android:layout_width="87dp"
-             android:layout_height="wrap_content"
-             android:layout_marginBottom="66dp"
-             android:background="@android:color/transparent"
-             android:text="@string/credits" />
-
-        </TableRow>
-
-</TableLayout>
