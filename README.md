@@ -5,7 +5,7 @@ General User Features 5
 
 ### 1. Introduction 
 ### 2. Common Interface
-  * 2.1. Sing in to the system 
+  * 2.1. Sign in to the system 
   * 2.2. Sign up for the system 
   * 2.3. Weed database 
   * 2.4. User profile 
